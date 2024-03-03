@@ -1,0 +1,40 @@
+.product{
+  display: flex;
+  justify-content: space-between;
+}
+.product h2{
+  background-color: rgb(255, 217, 0);
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+.product p{
+  font-size: 25px;
+  padding: 15px 20px;
+  background-color: chartreuse;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+form input{
+  margin: 10px 0 0px;
+}
+.results{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.results .box {
+  background-color: yellow;
+  width: fit-content;
+  padding: 10px 15px;
+  margin: 20px;
+}
+input[type="submit"]{
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
